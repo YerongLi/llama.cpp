@@ -1,1 +1,1 @@
-./server -m $SCRATCH/.cache/pyllama/Llama-2-7b/ggml-model-q4_0.gguf -c 2048 
+./server -m $SCRATCH/.cache/pyllama/Llama-2-7b/ggml-model-q4_0.gguf -c 2048 -ngl 100
