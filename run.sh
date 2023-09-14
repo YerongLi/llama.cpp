@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 ./main -m $SCRATCH/.cache/pyllama/Llama-2-7b/ggml-model-q4_0.gguf -p "Elon Musk is a South African-born Canadian-American business magnate, investor and inventor. He is the founder, CEO, and chief engineer/designer of SpaceX; co-founder, CEO, and product architect" -t 1 -n 4096 --temp 0.1 --top-p 0.90  -ngl 83 --verbose_prompt
